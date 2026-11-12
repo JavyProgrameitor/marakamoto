@@ -101,7 +101,7 @@ export default function ContactCinematic() {
       <video
         ref={videoRef}
         src="/video/marakamoto-higgsfield.mp4"
-        className="absolute inset-0 h-full w-full object-cover"
+       className="absolute inset-0 h-full w-full object-contain md:object-cover"
         muted
         playsInline
         preload="auto"
